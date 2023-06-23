@@ -6,6 +6,6 @@ public class Concrete extends Sand{
 		System.out.println("c ");
 	}
 	private Concrete(String s) {
-		
+	System.out.println(" private Constructor ");	
 	}
 }
