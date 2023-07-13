@@ -24,7 +24,7 @@ public class PancakeClass implements Pancake {
 	public List<String> pancakeMethod(List<String> list) {
 		// TODO Auto-generated method stub
 		list.add("9");
-		System.out.println(" Content of doStuff method ==> " + list);
+		System.out.println(" Content of pancakeMethod method ==> " + list);
 		return list;
 	}
 
