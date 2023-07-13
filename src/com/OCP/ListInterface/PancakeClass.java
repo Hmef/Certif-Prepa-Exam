@@ -24,7 +24,6 @@ public class PancakeClass implements Pancake {
 		list3.addAll(list2);
 		System.out.println(" list3 ==> " + list3);
 	}
-	/*
 	@Override
 	public List<String> pancakeMethod(List<String> list) {
 		// TODO Auto-generated method stub
@@ -33,12 +32,6 @@ public class PancakeClass implements Pancake {
 		return list;
 	}
 	
-	*/
 
-	@Override
-	 List<String> pancakeMethod(List<String> list) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }
