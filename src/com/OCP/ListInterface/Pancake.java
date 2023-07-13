@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface Pancake {
 
-	public List<String> doStuff(List<String> list);
+	public List<String> pancakeMethod(List<String> list);
 }

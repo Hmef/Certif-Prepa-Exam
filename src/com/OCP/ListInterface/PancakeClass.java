@@ -12,16 +12,19 @@ public class PancakeClass implements Pancake {
 		list1.add("5");
 		list1.add("7");
 		
-		List<String> list2 = new PancakeClass().doStuff(list1);
+		System.out.println(" Before method's call ==> " + list1 );
+		
+		List<String> list2 = new PancakeClass().pancakeMethod(list1);
 		list2.add("1");
-		//System.out.println(list1);
+		System.out.println(" After the method's call ==> " + list1);
+		System.out.println(" list2 ==> " + list2);
 	}
 	
 	@Override
-	public List<String> doStuff(List<String> list) {
+	public List<String> pancakeMethod(List<String> list) {
 		// TODO Auto-generated method stub
 		list.add("9");
-		System.out.println(list);
+		System.out.println(" Content of doStuff method ==> " + list);
 		return list;
 	}
 
