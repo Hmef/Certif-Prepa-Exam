@@ -69,7 +69,7 @@ public class DecimalFormatTest {
 		 
 		 //String s = instance.format(1.543366744);
 		 //System.out.println(" s : " + s);
-		 /*
+		 
 		 //DecimalFormat applPattern
 		 NumberFormat instancePattern = NumberFormat.getNumberInstance();
 		 ((DecimalFormat) instancePattern).applyPattern("###.00 €");
@@ -78,6 +78,6 @@ public class DecimalFormatTest {
 		 System.out.println(" DecimalFormat - applyPattern");
 		 System.out.println(ssPattern);
 		 
-		 */
+		 
 	}
 }
