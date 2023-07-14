@@ -1,5 +1,6 @@
 package com.OCP.NumberFormat.Parse;
 
+import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -25,8 +26,15 @@ public class DecimalFormatTest {
 		 instance.format(1.1111);
 		 instance.setMaximumFractionDigits(4);
 		 instance.setMinimumFractionDigits(2);
+		 instance.setGroupingUsed(false);
+		 instance.setRoundingMode(RoundingMode.HALF_UP);
 		 
 		 System.out.println(" instance : " + instance.format(1.643322));
+		 System.out.println(instance.format(1234.665D));
+		 
+		 //String s = instance.format(1.543366744);
+		 //System.out.println(" s : " + s);
+		 
 			
 	}
 }
