@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class DecimalFormatTest {
+public class NumberFormatExample {
 
 	public static void main(String[] args) {
 		
