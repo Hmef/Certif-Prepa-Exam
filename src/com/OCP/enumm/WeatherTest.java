@@ -2,10 +2,11 @@ package com.OCP.enumm;
 
 public class WeatherTest {
 
-	static WeatherTest w;
+	 static Weather w;
 	
 	public static void main(String[] args) {
-		//System.out.println();
+		
+		System.out.println(w.RAINY.count + " " + w.SUNNY.count + " ");
 	}
 	
 	enum Weather{
