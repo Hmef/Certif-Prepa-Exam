@@ -6,8 +6,9 @@ public class NestedifDemo2 {
 		
 		int i = 10;
 		
-		if(i == 10 && i < 15) {
-			System.out.println("Outer if ");
+		if(i == 10 || i < 15) {
+			
+			System.out.println(" Outer if ");
 			
 			// Nested if 1-1
 			if(i < 15)
@@ -16,12 +17,21 @@ public class NestedifDemo2 {
 			// Nested if 1-2
 			if(i > 15) {
 				
-				System.out.println(" is is smaller than 12 ");
-				
 				// Nested if 2-1
 				if(i < 13)
-					System.out.println(" i is bigger than 20 ");
-			}
+					System.out.println(" i is smaller than 13 "); // Statement Not Printed 
+				// else Nested if 2-1
+				else 
+					System.out.println(" else ");  // Statement Not Printed 
+			} else 
+				System.out.println(" else ==> if(i > 15) ");
+			
+			// Nested if 1-3
+			if(i == 10) {
+				
+				System.out.println(" Nested if 1-3 ");
+			} else 
+				System.out.println(" Nested else 1-3 ");
 			
 		} else {
 			System.out.println(" i is greater than 15 ");
