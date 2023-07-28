@@ -2,5 +2,5 @@ package com.OCP.Heritage3;
 
 public class Horse {
 
-	String hands = "15";
+	private String hands = "15";
 }

@@ -2,7 +2,7 @@ package com.OCP.Heritage3;
 
 public class GaitedPony extends Horse {
 
-	static String hands = "14";
+	//String hands = "14";
 	
 	public static void main(String[] args) {
 		
@@ -14,6 +14,6 @@ public class GaitedPony extends Horse {
 	String getSize(String s) {
 		
 		System.out.println(" hands : " + s);
-		return hands;
+		return hands; // Error if hands ( of Horse class ) is private 
 	}
 }
