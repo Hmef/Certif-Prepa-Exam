@@ -15,5 +15,6 @@ public class GaitedPony extends Horse {
 		
 		System.out.println(" hands : " + s);
 		return hands; // Error if hands ( of Horse class ) is private 
+		// the field Horse.hands is not visible !!
 	}
 }
