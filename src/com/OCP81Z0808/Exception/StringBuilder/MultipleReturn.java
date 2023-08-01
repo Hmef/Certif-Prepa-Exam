@@ -15,15 +15,15 @@ public class MultipleReturn {
 		
 		try {
 			String[] students = {"Harry","Paul"};
-			System.out.println(students[5]);
+			System.out.println(" students[5] : " + students[5]); // Throws ArrayIndexOutOfBoundsException
 			
 		} catch (Exception e){
 			
 			System.out.println(" About to return : " + returnVal);
-			return returnVal;
+			return returnVal; // return StringBuilder Object value from catch block
 		} finally {
 			
-			returnVal.append("10");
+			returnVal.append("20"); // modifies value of variable to be returned in finally block 
 			System.out.println(" Return value is now :  " + returnVal);
 		}
 		
