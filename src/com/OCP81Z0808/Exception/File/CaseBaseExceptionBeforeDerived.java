@@ -15,7 +15,7 @@ public class CaseBaseExceptionBeforeDerived {
 			fil = new FileInputStream("file.txt");
 			fil.close();
 		} catch(FileNotFoundException fnfe) { // Exception : Unreachable catch block for FileNotFoundException 
-			  								  // It is already handled by the catch block for IOException
+			  				 // It is already handled by the catch block for IOException
 			System.out.println("file not found"); 
 		}
 		catch(IOException ioe) {
@@ -28,11 +28,11 @@ public class CaseBaseExceptionBeforeDerived {
 /*
  * 
  				java.lang.Throwable
- 						->
+ 					->
  				java.lang.Exception
- 						->
+ 					->
  				java.io.IOException
- 						->
+ 					->
  				java.io.FileNotFoundException
 
  * 
