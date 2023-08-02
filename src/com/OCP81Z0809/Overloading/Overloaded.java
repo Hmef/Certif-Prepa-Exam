@@ -18,8 +18,17 @@ public class Overloaded {
 		aMethod(9);
 		
 		Integer i = 9;
-		
 		aMethod(i);
 		aMethod("9");
 	}
 }
+
+/*
+
+		This process of the compiler trying to resolve the method call from 
+		given overloaded method definitions is called overload resolution. 
+		For resolving a method call, it first looks for the exact match 
+		— the method definition with exactly same number of parameters and types of parameters. 
+		If it can’t find an exact match, it looks for the closest match by using upcasts. 
+		
+*/
