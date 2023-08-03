@@ -20,10 +20,10 @@ public class TestNumber {
 		// assign derived class objects
 		nums[0] = new Byte((byte)10);
 		nums[1] = new Integer(10);
-		nums[2] = new Float(10.0f); 
+		nums[2] = new Float(10.0F); 
 		nums[3] = new Double(10.0f);
 		
-		// pass the Number array to sum and print it 
+		// pass the Number array to sum and print it  
 		System.out.println(" The sum is : " + sum(nums));
 	}
 }
@@ -38,6 +38,8 @@ public class TestNumber {
   			Why using double as the return type of the sum method ??
 			the double type can hold a largest range of value 
  * 
+ * 
+  			Object <- Number <- Byte - Integer - Float - Double 
  * 
  */
 
