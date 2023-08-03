@@ -11,6 +11,6 @@ public class Circle extends Shape{
 	
 	public double area() {
 		
-		return Math.random() * radius * radius;
+		return Math.PI * radius * radius;
 	}
 }
