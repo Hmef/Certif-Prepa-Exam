@@ -2,7 +2,7 @@ package com.OCP81Z0809.statiic;
 
 public class CounterWithoutStatic {
 
-	private static int count;
+	private int count;
 	
 	public CounterWithoutStatic() {
 		count++;
@@ -35,6 +35,8 @@ public class CounterWithoutStatic {
  * 
 				A static variable shares its state with all instances of the class 
  * 
+ * 
+ 				You access a static variable using its class name ==> Counter.count
  * 
  */
 
