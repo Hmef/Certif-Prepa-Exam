@@ -8,9 +8,11 @@ public class House {
 		
 		Book book = new Book();
 		
-		int c = issueCount; // Change Visibility to protected 
+		// ********** Error **********
+		//int c = issueCount; // Change Visibility to protected 
 		
-		issueHistory();  // Change visibility to protected 
+		// ********** Error **********
+		//issueHistory();  // Change visibility to protected 
 		
 	}
 }
