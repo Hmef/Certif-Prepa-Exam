@@ -17,10 +17,19 @@ public class Main {
 		
 		System.out.println(letters.indexOf('B', 2));
 		
-		// ***************** Substring) *****************
+		// ***************** Substring() *****************
 		String exam = "oracle";
 		String sub = exam.substring(2);
 		System.out.println(sub);
+		
+		
+		// ***********************************
+		// ***************** trim() *****************
+		String varWithSpace = " AB CB   "; // Before trim() method 
+		System.out.println(":" + varWithSpace + ":");
+	
+		System.out.println(":" + varWithSpace.trim() + ":");// after trim() method 
+
 	}
 	
 }
