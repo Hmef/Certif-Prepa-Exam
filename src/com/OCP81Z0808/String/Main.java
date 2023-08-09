@@ -39,8 +39,11 @@ public class Main {
 		System.out.println(letterS);
 		
 		// ==> Error 
-		letterS.replace("A", 'a');    // won't compile - we can't mix char and String 
+		//letterS.replace("A", 'a');    // won't compile - we can't mix char and String 
 		
+		
+		// ***************** length() *****************
+		System.out.println("Shreya".length());   // EXAM TIP 
 
 	}
 	
