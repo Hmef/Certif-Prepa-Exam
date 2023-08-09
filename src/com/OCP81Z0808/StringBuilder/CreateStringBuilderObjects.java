@@ -17,6 +17,7 @@ public class CreateStringBuilderObjects {
 /*
  * 
      		Code executes behind the scenes
+     		initialize the array value defined in the class StringBuilder() itself
      		 
      		StringBuilder sb1 = new StringBuilder();
      						==>
