@@ -64,8 +64,8 @@ public class Main {
 		// ***********************************
 		// ***************** Method Chaining *****************
 		String result = "Sunday  ".replace(' ','Z').trim().concat("M n");  // Exam TIP $$: When CHAINED, the methods are evaluated 
-																		   //from left to right 
-																		   // replace() is the first method to execute - not concat()
+		 //from left to right 
+		 // replace() is the first method to execute - not concat()
 		
 		System.out.println(result); 
 	}
