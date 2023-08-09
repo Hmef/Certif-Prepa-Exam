@@ -44,7 +44,7 @@ public class Main {
 		
 		// ***********************************
 		// ***************** length() *****************
-		System.out.println("Shreya".length());   // EXAM TIP 
+		System.out.println("Shreya".length());   // EXAM TIP $$
 		
 		
 		// ***************** startsWith() *****************
@@ -60,6 +60,14 @@ public class Main {
 		System.out.println(letterSS.endsWith("B"));
 		System.out.println(letterSS.endsWith("b"));  // false 
 
+		
+		// ***********************************
+		// ***************** Method Chaining *****************
+		String result = "Sunday  ".replace(' ','Z').trim().concat("M n");  // Exam TIP $$: When CHAINED, the methods are evaluated 
+																		   //from left to right 
+																		   // replace() is the first method to execute - not concat()
+		
+		System.out.println(result); 
 	}
 	
 }
