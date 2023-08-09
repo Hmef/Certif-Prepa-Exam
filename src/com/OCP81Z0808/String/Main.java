@@ -42,8 +42,23 @@ public class Main {
 		//letterS.replace("A", 'a');    // won't compile - we can't mix char and String 
 		
 		
+		// ***********************************
 		// ***************** length() *****************
 		System.out.println("Shreya".length());   // EXAM TIP 
+		
+		
+		// ***************** startsWith() *****************
+		String letterSS = "AABBCCAB";
+		System.out.println(letterSS.startsWith("AAB"));
+		System.out.println(letterSS.startsWith("s"));
+		//System.out.println(letterSS.startsWith('C', 4));  // Error 'C' 
+		System.out.println(letterSS.startsWith("C",4));
+		
+		
+		// ***************** endsWith() *****************
+		System.out.println(letterSS.endsWith("CAB"));
+		System.out.println(letterSS.endsWith("B"));
+		System.out.println(letterSS.endsWith("b"));  // false 
 
 	}
 	
