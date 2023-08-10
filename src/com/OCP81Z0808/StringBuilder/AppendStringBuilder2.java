@@ -9,6 +9,9 @@ public class AppendStringBuilder2 {
 		sb1.append(new Person("Oracle"));
 		//System.out.println(sb1); // Solution ==> Override toString() method 
 		System.out.println(sb1.toString());  
+		
+		
+			
 	}
 }
 
@@ -18,12 +21,17 @@ public class AppendStringBuilder2 {
  * 				******** Exam TIP ********
  				Error : Before Overriding toString() method 
  						==> 
- 						Person@15db9742
+ 						Person@15db9742 
  						
  				
  				Solution : Overriding toString() method 
  						==>
  						javaOracle
- 						
+ 				
+ 		
+ 		Person@15db9742 : name of the class followed by the @ char and unsigned Hexadecimal representation of 
+ 						  the hash code of the object 
+ 						  
+ 		hashCode() method : return the hash code of the object ( 15db9742  )
  */
 
