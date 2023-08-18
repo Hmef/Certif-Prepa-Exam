@@ -4,7 +4,6 @@ public class CreateArray {
 
 	public static void main(String[] args) {
 		
-		
 		/*
 		 * One Dimensional Array Declaration 
 		 */
@@ -31,15 +30,24 @@ public class CreateArray {
 		
 		// Without using for loop 
 		int[] intArray = new int[] {4, 9, 104};
-		String objectArray[] = new String[] {"Paul","Henry","Christine"};
-		
-		for(String st : objectArray) {
-			System.out.println(st);
-		}
-		
 		for(int t : intArray) {
 			System.out.println(t);
 		}
+		
+		String objectArray[] = new String[] {"Paul","Henry","Christine","Jeff"};
+		
+		objectArray[2] = null; // we can remove an array position like this 
+		for(String st : objectArray) {
+			System.out.println(st);
+		}
+		/*
+		 * Output :
+		 * Paul 
+		 * Henry
+		 * null
+		 * Jeff
+		 */
+		
 		
 		
 		// Using a for loop 
@@ -50,7 +58,13 @@ public class CreateArray {
 		
 		String[] strArray = new String[Math.max(1, 2)];
 		for(int i = 0; i<strArray.length; i++) {
-			strArray[i] = new String("Hello" + i);
+			strArray[i] = new String("Hello");
+			System.out.println(strArray[i]);
 		}
+		
+		/*
+		 * Exam TIP 
+		 */
+		System.out.println(strArray[5]); // throw the exception ==> ArrayIndexOutOfBoundsException
 	}
 }
