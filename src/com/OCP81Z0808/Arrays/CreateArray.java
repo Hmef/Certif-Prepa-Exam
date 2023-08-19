@@ -66,5 +66,16 @@ public class CreateArray {
 		 * Exam TIP 
 		 */
 		System.out.println(strArray[5]); // throw the exception ==> ArrayIndexOutOfBoundsException
+		
+		/*
+		 * Exam TIP 
+		 */
+		
+		int[] intArrr;
+		intArrr = new int[] {1, 3, 7}; // use new to initialize the values (Declare and Initialize the Array)
+		
+		// Error
+		//int[] intArrr;
+		//intArrr = {1, 3, 7};
 	}
 }
