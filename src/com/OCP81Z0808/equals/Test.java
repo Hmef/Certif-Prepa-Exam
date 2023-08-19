@@ -19,5 +19,13 @@ public class Test {
 		System.out.println(b1.equals(b2));
 		System.out.println(b2.equals(b3));
 		System.out.println(b1.equals(new String("abc")));
+		
+		// ****** Exam TIP ****** part 2
+		System.out.println(" ======= Part 2 ======= ");
+		BankAccount2 bank = new BankAccount2();
+		String str = "Bank";
+		System.out.println(bank.equals(str));
+		System.out.println(str.equals(bank));
+		
 	}
 }
