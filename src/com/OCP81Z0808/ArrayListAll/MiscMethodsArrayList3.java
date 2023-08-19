@@ -11,10 +11,14 @@ public class MiscMethodsArrayList3 {
 		StringBuilder sb2 = new StringBuilder("Fev");
 		StringBuilder sb3 = new StringBuilder("Fev");
 		
+		System.out.println(sb3.equals(sb2)); // 
+		
 		myArrList.add(sb1);
 		myArrList.add(sb2);
 		myArrList.add(sb2);
 		myArrList.add(sb3);
+		
+		System.out.println(myArrList.get(1).equals(myArrList.get(2)));
 		
 		System.out.println(myArrList.toString());
 		
