@@ -16,7 +16,7 @@ public class Main {
 		System.out.println(date.getMonthValue());
 		System.out.println(date.getYear());
 		
-		// 
+		// LocalDate.of() - atTime()
 		
 		LocalDate interviewDate = LocalDate.of(2016,02,28); // LocalDate.of()
 		
@@ -28,7 +28,18 @@ public class Main {
 		/*
 		 * Exam TIP 
 		 */
-		System.out.println(interviewDate.atTime(LocalTime.of(11111, 30))); // throw DateTimeException
+		//System.out.println(interviewDate.atTime(LocalTime.of(11111, 30))); // throw DateTimeException
+		
+		
+		// toEpochDay()
+		
+		LocalDate launchBook = LocalDate.of(2016, 2, 8);
+		LocalDate aDate = LocalDate.of(1970, 1, 8);
+		
+		System.out.println(launchBook.toEpochDay());  // the count of days from January 1, 1970
+		System.out.println(aDate.toEpochDay());  // Output ==> 7 days 
+		
+		
 	}
 
 }
