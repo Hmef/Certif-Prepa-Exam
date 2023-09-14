@@ -28,5 +28,11 @@ public class Main {
 		/*
 		 * Exam TIP : Arrays of String ==> create custom sort orders using a comparator
 		 */
+		
+		/*
+		 * Exam TIP : The problem is that String sorts in alphabetic order
+		 * ==> Numbers sort before Letters
+		 * ==> Uppercase sorts before lowercase
+		 */
 	}
 }
