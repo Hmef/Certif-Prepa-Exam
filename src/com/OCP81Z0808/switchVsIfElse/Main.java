@@ -13,6 +13,28 @@ public class Main {
 			System.out.println("Weekend");
 		else 
 			System.out.println("Invalid day !!");
+		
+		/*
+		 *  switch part 
+		 */
+		
+		String jour = "SAT";
+		switch(jour) {
+			case "MON":
+			case "TUE":
+			case "WED":
+			case "THU": System.out.println("Time to work");
+				break;
+			case "FRI": System.out.println("Nearing weekend");
+				break;
+			case "SAT":
+			case "SUN": System.out.println("Weekend");
+				break;
+			default: System.out.println("Invalid day !");
+		
+		}
+		
+		
 	}
 
 }
