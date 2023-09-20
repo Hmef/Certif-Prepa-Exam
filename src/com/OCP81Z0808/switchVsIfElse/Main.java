@@ -51,6 +51,32 @@ public class Main {
 			default : System.out.println("default");
 		}
 		
+		/*
+		 * Exam TIP : double variable can't be passed as an argument to the switch statement 
+		 */
+		
+		System.out.println(" ********* Exam TIP ********* ");
+		
+		double history = 20;
+		//switch(history) {
+			// code 
+		//}
+		
+		/*
+		 * Exam TIP : for nonprimitive types, only String and Wrapper types 
+		 * 			 switch argument must not be null 	
+		 * 			
+		 * 			 ==> NullPointerException
+		 */
+		
+		Integer value = null;
+		switch(value) {
+			default: System.out.println("value is not 10");
+					 break;
+			case 10: System.out.println("value is 10");
+					 break;
+			
+		}
 		
 		
 	}
