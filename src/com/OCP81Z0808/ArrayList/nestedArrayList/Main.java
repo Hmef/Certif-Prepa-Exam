@@ -26,6 +26,11 @@ public class Main {
 		nestedArrayList.add(exams);
 		nestedArrayList.add(levels);
 		nestedArrayList.add(grades);
+		
+		for(ArrayList<String> nestedListElement : nestedArrayList)
+			for(String element : nestedListElement)
+				System.out.println(element);
+
 	}
 
 }
