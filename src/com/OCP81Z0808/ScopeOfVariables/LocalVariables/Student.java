@@ -7,9 +7,17 @@ public class Student {
 	
 	public double getAverage() {
 		
-		double avg = 0;  //  ==> local variable aavg
-		avg = ((marks1 + marks2 + marks3) / (maxMarks * 100)) / 100;
-		return avg;
+		//double avg = 0;  
+		
+		if(maxMarks > 0) {
+			double avg = 0;  //  ==> local variable aavg
+			avg = ((marks1 + marks2 + marks3) / (maxMarks * 3)) * 100;
+			return avg;
+		}
+		else {
+			avg = 0;   // the scope of local variable avg is part of the if statement 
+			return avg;
+		}
 	}
 	
 	public void setAverage(double val) {
