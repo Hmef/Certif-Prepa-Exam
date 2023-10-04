@@ -1,5 +1,7 @@
 package com.OCP81Z0808.Comparable;
 
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -15,8 +17,24 @@ public class Main {
 		arr[2] = pair3;
 		arr[3] = pair4;
 
-		print(arr);
+		print(arr);  // before sort() method 
+		
+		Arrays.sort(arr);
+		System.out.println(" ");
+		print(arr); // after sort() method 
 
+		
+		/*
+		 * compareTo() 
+		 * if(this.firstName.compareTo(o.firstName) != 0) {
+			return this.firstName.compareTo(o.firstName);
+		} 
+		else {
+			// on compare les lastNames si les firstNames sont égaux 
+			return this.lastName.compareTo(o.lastName);
+		}
+		 */
+		
 	}
 
 	public static void print(Pair[] arr) {
