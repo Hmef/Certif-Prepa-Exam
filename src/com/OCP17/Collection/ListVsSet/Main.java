@@ -35,5 +35,28 @@ public class Main {
 		 * 
 		 * ==> a Set Does not allow duplicates  
 		 */
+		
+		System.out.println(" Removing Data  ");
+		
+		// Removing Data 
+		Collection<String> birds = new ArrayList<>();
+		birds.add("hawk");
+		birds.add("hawk");
+		System.out.println(birds.remove("cardinal"));
+		System.out.println(birds.remove("hawk"));
+		System.out.println(birds);
+		
+		System.out.println("  Counting Elements  ");
+		
+		// Counting Eelements 
+		
+		Collection<String> birdsList = new ArrayList<>();
+		System.out.println(birdsList.isEmpty());
+		System.out.println(birdsList.size());
+		birdsList.add("hawk");
+		birdsList.add("hawk");
+		System.out.println(birdsList.isEmpty());
+		System.out.println(birdsList.size());
+		
 	}
 }
