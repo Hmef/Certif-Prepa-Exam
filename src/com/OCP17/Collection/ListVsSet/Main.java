@@ -58,5 +58,26 @@ public class Main {
 		System.out.println(birdsList.isEmpty());
 		System.out.println(birdsList.size());
 		
+		System.out.println("   Clearing the collection   ");
+		
+		// Clearing the collection 
+		
+		birdsList.clear();
+		System.out.println(birdsList.isEmpty());
+		System.out.println(birdsList.size());
+		
+		System.out.println("    Check Contents   ");
+		
+		// Check Contents 
+		
+		birdsList.add("cardinal");
+		birdsList.add("hawk");
+		System.out.println(birdsList.contains("cardinal"));
+		System.out.println(birdsList.contains("robin"));
+		
+		/*
+		 * Exam TIP : The contains() method calls equals() on elements of the ArrayList to see whether 
+		 * there are any matches 
+		 */
 	}
 }
