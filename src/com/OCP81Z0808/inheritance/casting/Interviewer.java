@@ -22,4 +22,11 @@ public interface Interviewer {
 		System.out.println("Interviw scheduled on: " + dateTime);
 		System.out.println(" Book conference room for : " + duration + "hrs");
 	}
+	
+	/*
+	 * 
+	 */
+	public abstract Object interviewResult();
+	
+	public abstract int interviewConducted();
 }
