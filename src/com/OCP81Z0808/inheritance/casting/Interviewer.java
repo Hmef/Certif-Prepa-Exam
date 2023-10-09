@@ -5,8 +5,9 @@ import java.time.LocalDateTime;
 public interface Interviewer {
 
 	public abstract void conductInterview(); // an abstract method is defined without a method body
-	public default void submitInterviewStatus() {
+	public default Object submitInterviewStatus() {
 		System.out.println("Accept");
+		return null;
 	}
 	
 	/*
