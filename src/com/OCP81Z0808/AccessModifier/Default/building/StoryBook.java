@@ -1,8 +1,8 @@
 package com.OCP81Z0808.AccessModifier.Default.building;
 
-import com.OCP81Z0808.AccessModifier.Default.library.Book;  // Class Book isn't accessible in class StoryBook
+//import com.OCP81Z0808.AccessModifier.Default.library.Book;  // Class Book isn't accessible in class StoryBook
 
-public class StoryBook extends Book {
+public class StoryBook {
 
 	public StoryBook() {
 		// TODO Auto-generated constructor stub
