@@ -19,9 +19,10 @@ public class StoryBook extends Book {
 		Book book = new Book();
 		//book.author;
 		//book.modifyTemplate();
+		String a = author;  // Exam TIP ==> access Only by Inheritance 
 		
 		// ==> Exam TIP : access PUBLIC members using reference variable
-		String isbn = book.isbn;  //  
+		String isbn = book.isbn;   
 		book.printBook();   
 	}
 }
