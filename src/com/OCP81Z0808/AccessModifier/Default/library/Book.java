@@ -1,6 +1,6 @@
 package com.OCP81Z0808.AccessModifier.Default.library;
 
-public class Book {
+ class Book {
 
 	public String isbn;
 	protected String author;

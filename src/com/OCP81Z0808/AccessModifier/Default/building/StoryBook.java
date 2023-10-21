@@ -1,6 +1,6 @@
 package com.OCP81Z0808.AccessModifier.Default.building;
 
-import com.OCP81Z0808.AccessModifier.Default.library.Book;
+import com.OCP81Z0808.AccessModifier.Default.library.Book;  // Class Book isn't accessible in class StoryBook
 
 public class StoryBook extends Book {
 
@@ -8,7 +8,7 @@ public class StoryBook extends Book {
 		// TODO Auto-generated constructor stub
 		
 		//int c = issueCount;  // default access ==< private package 
-		issueHistory(); 
+		//issueHistory(); 
 	}
 	
 /*
