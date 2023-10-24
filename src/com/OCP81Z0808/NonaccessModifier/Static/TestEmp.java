@@ -8,8 +8,11 @@ public class TestEmp {
 		Emp emp2 = new Emp();
 		
 		emp1.bankVault = 100;
-		emp2.bankVault = 400;
+		System.out.println(" emp1.bankVault : " + emp1.bankVault);
+		System.out.println(" Emp.bankVault : " + Emp.bankVault);
+		emp2.bankVault = 400; // ==> the static filed should be accessed in a static way 
 		
+		System.out.println("");
 		System.out.println("emp1.bankVault: " + emp1.bankVault);
 		System.out.println("emp2.bankVault: " + emp2.bankVault);
 		System.out.println("Emp.bankVault: " + Emp.bankVault);
