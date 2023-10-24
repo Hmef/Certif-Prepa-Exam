@@ -16,5 +16,13 @@ public class TestEmp {
 		System.out.println("emp1.bankVault: " + emp1.bankVault);
 		System.out.println("emp2.bankVault: " + emp2.bankVault);
 		System.out.println("Emp.bankVault: " + Emp.bankVault);
+		
+		System.out.println("");
+		double x = Emp.interest(1.4, 3.5, 2.456);   // non static variable = static method 
+		System.out.println(" Emp.interest(1.4, 3.5, 2.456) : " + x);
+		
+		System.out.println("");
+		double avg = Emp.averageOfFirst100Integers();
+		System.out.println(" avg : " + avg);
 	}
 }
