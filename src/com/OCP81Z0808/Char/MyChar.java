@@ -5,7 +5,7 @@ public class MyChar {
 	public static void main(String[] args) {
 		
 		int myInt = 7;
-		bool result = true;
+		bool result = true;  // ==> Fail to compile 
 		
 		if(result == true) {
 			do
