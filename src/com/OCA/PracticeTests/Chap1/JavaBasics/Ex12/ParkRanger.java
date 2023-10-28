@@ -2,15 +2,20 @@ package com.OCA.PracticeTests.Chap1.JavaBasics.Ex12;
 
 public class ParkRanger {
 
-	//int birds = 10; // Solution 1 ==> static int birds = 10;
+	//static int birds = 10; // Solution 1 ==> static int birds = 10;
 	
-	static int birds = 10;
+	int birds = 10; 
 	
 	public static void main(String[] data) {
 		
 		int trees = 5;
 		
-		System.out.println(trees + birds);  // Compilation Error
+		ParkRanger parkRanger = new ParkRanger();  // instance of the class 
+		
+		// System.out.println(trees + birds);  // Compilation Error
+		
+		System.out.println(trees + parkRanger.birds);  // Solution 2
+
 		
 	}
 	
@@ -30,7 +35,7 @@ public class ParkRanger {
 	
 	/*
 	 * 
-	 *  Watch Out ==> static int    NOT int static 
+	 *  Watch Out ==> static int    NOT   int static 
 	 * 
 	 */
 }
