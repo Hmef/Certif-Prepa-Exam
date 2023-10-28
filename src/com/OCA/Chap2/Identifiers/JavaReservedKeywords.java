@@ -11,7 +11,7 @@ public class JavaReservedKeywords {
 	
 		
 		/*
-		 * Exam TIP ==> Java Reserved Keywords 
+		 * Exam TIP ==> Java Reserved Keywords (not all the list) ==> there is 53 Java reserved keywords 
 		 * 
 		 * 
 		 * 			abstract	default		goto	package		this	assert 		do

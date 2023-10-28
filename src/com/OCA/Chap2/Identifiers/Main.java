@@ -48,7 +48,13 @@ public class Main {
 		
 		// int Four season$2023; // Not allowed, there is a space after Four 
 
-			
+		// int 7world;	// Invalid Identifier
+		
+		int total2count;  // valid
+		
+		int my_variable$; // valid
+		
+		// int 12USA; // invalid
 	}
 	
 	
