@@ -2,13 +2,15 @@ package com.OCA.PracticeTests.Chap1.JavaBasics.Ex12;
 
 public class ParkRanger {
 
-	int birds = 10;
+	//int birds = 10; // Solution 1 ==> static int birds = 10;
+	
+	static int birds = 10;
 	
 	public static void main(String[] data) {
 		
 		int trees = 5;
 		
-		System.out.println(trees + birds);  // Compilation 
+		System.out.println(trees + birds);  // Compilation Error
 		
 	}
 	
@@ -24,5 +26,11 @@ public class ParkRanger {
 	
 	/*
 	 * 		Compilation Error ==> when a static method (main) try to access to a non-static variable (trees) without an instance of the class
+	 */
+	
+	/*
+	 * 
+	 *  Watch Out ==> static int    NOT int static 
+	 * 
 	 */
 }
