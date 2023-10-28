@@ -2,7 +2,7 @@ package com.OCA.Chap2.Identifiers;
 
 public class JavaReservedKeywords {
 
-	public static void main(String... args) {
+	public static void main(String... args) { // ==> main method another way to write this method
 		
 		
 		//int abstract;  // Java reserved Keyword 
