@@ -22,4 +22,15 @@ public class BirthdayManager {
 	 *  
 	 *  Date class ==> 6 Constructors include Date() without parameter 
 	 */
+	
+	/*
+	 * 			java.util.Date     Vs    java.sql.Date 
+	 * 
+	 * 			6 Constructors 	   Vs    2 Constructors
+	 * 
+	 * 			4 are Deprecated   Vs    1 is Deprecated
+	 * 
+	 * 			Date() Constructor without parameter in java.util
+	 *    
+	 */
 }
