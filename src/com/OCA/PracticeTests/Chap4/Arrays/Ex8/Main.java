@@ -1,5 +1,7 @@
 package com.OCA.PracticeTests.Chap4.Arrays.Ex8;
 
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -14,5 +16,15 @@ public class Main {
 			System.out.println(" i ==> " + i);
 			System.out.println(days[i]);
 		}
+		
+		System.out.println("");
+		
+		Arrays.sort(days);
+		//System.out.println(days.toString()); 
+		
+		System.out.print("Sorted Array ==> ");
+		System.out.println(Arrays.toString(days));
+		
+		
 	}
 }
