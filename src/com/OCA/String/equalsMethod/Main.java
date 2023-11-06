@@ -16,6 +16,9 @@ public class Main {
 		System.out.println(var3.equals(var4));  // equals method
 		System.out.println(var3 == var4);      // == 
 		
+		// use != Operator to compare the inequality of objects referred to by String variables
+		System.out.println(var1 != var2);
+		System.out.println(var3 != var4);  // refer to the same object in the pool of String constants 
 		
 	}
 	
@@ -23,6 +26,7 @@ public class Main {
 	 * 				Exam TIP
 	 * 
 	 * 	you should NEVER use == Operator for comparing String values 
+	 * 
 	 */
 	
 	
@@ -32,5 +36,7 @@ public class Main {
 	 *  	== compare the reference
 	 *  
 	 *  	equals() method : Compare the sequence of characters in the two String Object
+	 *  
+	 *  	!= compare inequality of the references
 	 */
 }
