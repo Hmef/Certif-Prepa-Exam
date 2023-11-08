@@ -16,8 +16,7 @@ public class Bond {
 			System.out.println(" else if price >= 10 : " + price);
 			return false;
 		}
-		
-		//return true;  // 
+		return true;  // 
 	}
 	
 	public static void main(String[] args) {
@@ -33,5 +32,12 @@ public class Bond {
 		new Bond().sell();
 		
 		System.out.println(price);  // if prince is not static we can't call it here 
+		
+		System.out.println(" ++price : " + ++price);  // pre-increment ( Increment the value Before using it)
+		System.out.println(" --price : " + --price);
+		
+		System.out.println(" price++ : " + price++);  // post-increment 
+		System.out.println(" price-- : " + price--);
+		
 	}
 }
