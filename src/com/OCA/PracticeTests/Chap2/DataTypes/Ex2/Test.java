@@ -5,7 +5,7 @@ public class Test {
 	
 	public static void main(String... args) {
 		
-		String chair, table = "metal";
+		String chair = null, table = "metal";
 		
 		chair = chair + table;  // Error ==> Initialize variable chair ==> chair = null
 		
