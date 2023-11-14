@@ -4,22 +4,35 @@ public class Main {
 
 	
 	public static void main(String... args) {
+												
 		
-		/*
-		 * 				Assignment Operators
-		 */
-		
-		int a = 10;
-		int b = a; // Ok to assign variables of same type
+		/* 			Assignment Operators     */
+	
+		int x = 10;
+		int y = x; // Ok to assign variables of same type
 		
 		float float1 = 10.2F;		 // OK to assign literal 10.2F to variable of type float
 		float float2 = float1;  // Ok to assign variables of same type
 		
 		long num = 1009655327007276L;
-		int val = num;  // Compiler won't allow this 
+		// int val = num;  // Compiler won't allow this 
 		
 		int intVal = 1009;
 		long longVal = intVal; //   ==> Allowed
+		
+		
+		/* Define and Initialize in the SAME line   */
+		
+		int a = 7, b = 10, c = 8;
+		a = b = c;  
+		System.out.println(a);   // print 8 
+		
+		/*
+		 *  the assignment starts from the right to the left
+		 *  
+		 *  the value of variable c is assigned to b 
+		 *  and the value of b is assigned to a
+		 */
 		
 		
 	}
