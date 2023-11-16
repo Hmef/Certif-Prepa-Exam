@@ -12,20 +12,17 @@ public class NameCheck {
 		System.out.println(" john content ==> " + john.toString());
 		
 		System.out.println(" jon content ==> " + jon.toString());
-		
-		System.out.println(" john reference : " + john);
 	}
 	
 	/*
-	 * 					== 
+	 * 					== : compare the address (reference) of the two objects
 	 * 
-	 * 	john et jon the two objects are not the same So
-	 * 
-	 * 				==> john == jon ==> result : false
+	 * 	John value is placed on the pool of the String objects 
+	 * 	
 	 */
 	
 	/*
-	 * 					equals() method 
+	 * 					equals() method : compare the content
 	 * 
 	 * 	john.equals(jon) return true because the values they refers to are equivalent 
 	 * 
