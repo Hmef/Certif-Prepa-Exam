@@ -14,5 +14,11 @@ public class Test {
 			System.out.println(drinks.get(container) + ",");
 		}
 	}
+	
+	/*
+	 * 						Exam TIP
+	 *  
+	 *  	size() for List             length variable for Array
+	 */
 
 }
