@@ -31,13 +31,15 @@ public class Bond {
 		new Bond().sell();
 		new Bond().sell();
 		
-		System.out.println(price);  // if prince is not static we can't call it here 
+		System.out.println(price);  // if price is not static we can't call it here 
 		
 		System.out.println(" ++price : " + ++price);  // pre-increment ( Increment the value Before using it)
 		System.out.println(" --price : " + --price);
 		
 		System.out.println(" price++ : " + price++);  // post-increment 
+		System.out.println(" ==> price's value after post-Increment : " + price);
 		System.out.println(" price-- : " + price--);
+		
 		
 	}
 }
