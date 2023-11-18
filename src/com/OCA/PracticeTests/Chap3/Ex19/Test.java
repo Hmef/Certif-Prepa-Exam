@@ -8,7 +8,7 @@ public class Test {
 		//int day = 4;
 		boolean day = true;
 		
-		String dinner = time > 10 ? day ? "Takeout" : "Salad" : "Leftovers"; //Error==> day is not a booealn
+		String dinner = time > 10 ? day ? "Takeout" : "Salad" : "Leftovers"; //Error ==> day is not a boolean
 		System.out.println(dinner);
 		
 		/*
