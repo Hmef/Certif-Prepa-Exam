@@ -43,13 +43,21 @@ public class LocalTimeBasics {
 		LocalTime paulStartTime = movieStartTime.minusMinutes(commuteMin);
 		System.out.println(" Start by " + paulStartTime + " from office");
 		
-		// plusMinutes()
+		// plusSeconds()
+		int worldRecor = 20;
+		LocalTime raceStartTime = LocalTime.of( 10, 55);
+		LocalTime raceEndTime = LocalTime.of(8, 11, 11);
+		if(raceStartTime.plusSeconds(worldRecor).isAfter(raceEndTime)) {
+			System.out.println("New World Record");
+		} else {
+			System.out.println("Try harder");
+		}
 		
 		// withMinute()
 		LocalTime startTime = LocalTime.of(5, 7, 9);
 		if(startTime.getMinute() < 30)
 			startTime = startTime.withMinute(0);
-		System.out.println(startTime); // 0 minutes 
+		System.out.println(startTime); //05:00:09 : 0 minutes 
 		
 		// atDate() 
 		LocalTime timee = LocalTime.of(14, 10, 0);
