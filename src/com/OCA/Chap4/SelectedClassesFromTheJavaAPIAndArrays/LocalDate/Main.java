@@ -33,9 +33,14 @@ public class Main {
 		// minusWeeks(-13)
 		System.out.println(date3.minusWeeks(-13)); // 2016-01-19 ==>  add 13 weeks to 2015-10-20
 		
-		// withHour() 
+		// withDayOfMonth() 
+		LocalDate launchCompany = LocalDate.of(2016, 02, 29);
+		System.out.println(launchCompany.withDayOfMonth(10));  // 2016-02-10
 		
-		// LocalDate.of() - atTime()
+		// plusWeeks()
+		System.out.println(launchCompany.plusWeeks(10)); // 2016-05-09
+		
+		// Convert LocalDate to LocalDateTime ==> atTime()
 		LocalDate interviewDate = LocalDate.of(2016,02,28); // LocalDate.of()
 		
 		System.out.println(interviewDate.atTime(16, 30));
@@ -82,10 +87,19 @@ public class Main {
 	 */
 	
 	/*
+	 * 							Exam TIP
+	 * 									withDayOfMonth() - plusWeeks()
+	 * 
+	 * 	LocalDate instances are immutable ==> so all methods that seems manipulate its value return a copy of the LocalDate instance
+	 * 
+	 *  Methods like withDayOfMonth() and plusWeeks()
+	 */
+	
+	/*
 	 * 					 		Exam TIP
 	 * 									DateTimeParseException
 	 * 
-	 *  if we pass invalid value to parse() or of() ==> we will get DateTimeParseException
+	 *  if we pass invalid value to parse() ==> we will get DateTimeParseException
 	 *  
 	 *  The format of the String passed to parse() method must be exactly of the format 9999-99-99
 	 *  
@@ -98,13 +112,14 @@ public class Main {
 	 * 				  Exam TIP
  							   atTime()
  
- 			add time to date ==> interviewDate.atTime(16, 30) ==> 2016-02-28T16:30
+ 			Convert LocalDate to another type
+ 			Combine LocalDate with time to create and return LocalDateTime ==> interviewDate.atTime(16, 30) ==> 2016-02-28T16:30
  			T : separate Date and Time
 	 */
 	/*
 	 * 					Exam TIP
  								 toEpochDay()
- 			
+ 			convert LocalDate to Epoch Date
  			the count of days from January 1, 1970 
 	 */
 
